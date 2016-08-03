@@ -1,0 +1,6 @@
+framework module UIColor_Utilities {
+  umbrella header "UIColor-Utilities-umbrella.h"
+
+  export *
+  module * { export * }
+}

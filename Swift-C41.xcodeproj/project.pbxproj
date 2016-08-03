@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0815AD231D4AEA85007FED0F /* LyCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0815AD221D4AEA85007FED0F /* LyCoreDataStack.swift */; };
+		08160D2C1D5183BF00CF525F /* LyDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08160D2B1D5183BF00CF525F /* LyDetailViewModel.swift */; };
+		08160D2E1D519A7E00CF525F /* LyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08160D2D1D519A7E00CF525F /* LyDetailViewController.swift */; };
+		08160D301D51B6C200CF525F /* LyTimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08160D2F1D51B6C200CF525F /* LyTimerViewModel.swift */; };
+		08160D331D51C8DB00CF525F /* LyTimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08160D321D51C8DB00CF525F /* LyTimerViewController.swift */; };
+		08160D361D51DDCA00CF525F /* LyEditStepTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08160D351D51DDCA00CF525F /* LyEditStepTableViewController.swift */; };
+		084A15B51D51008000EDB3C5 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084A15B41D51008000EDB3C5 /* UIKitExtensions.swift */; };
+		086D91831D4A5FCB007012E2 /* RAC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D917F1D4A5FCB007012E2 /* RAC.swift */; };
+		086D91861D4A5FCB007012E2 /* TableViewBindingHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D91821D4A5FCB007012E2 /* TableViewBindingHelper.swift */; };
+		086D91961D4A6165007012E2 /* LyMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D91921D4A6165007012E2 /* LyMasterViewModel.swift */; };
+		086D91971D4A6165007012E2 /* LyMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D91951D4A6165007012E2 /* LyMasterTableViewController.swift */; };
+		08772FA11D49FD470064ACF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08772FA01D49FD470064ACF2 /* AppDelegate.swift */; };
+		08772FA31D49FD470064ACF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08772FA21D49FD470064ACF2 /* ViewController.swift */; };
+		08772FA61D49FD470064ACF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08772FA41D49FD470064ACF2 /* Main.storyboard */; };
+		08772FA81D49FD470064ACF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08772FA71D49FD470064ACF2 /* Assets.xcassets */; };
+		08772FAB1D49FD470064ACF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08772FA91D49FD470064ACF2 /* LaunchScreen.storyboard */; };
+		08D2BA321D50767C00B85739 /* LyEditRecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2BA311D50767C00B85739 /* LyEditRecipeTableViewController.swift */; };
+		08D2BA341D507B2700B85739 /* LyEditRecipeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2BA331D507B2700B85739 /* LyEditRecipeViewModel.swift */; };
+		08D2BA361D508A4100B85739 /* LyEditStepViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2BA351D508A4100B85739 /* LyEditStepViewModel.swift */; };
+		08D2BA381D5094B100B85739 /* LyTextFieldCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D2BA371D5094B100B85739 /* LyTextFieldCell.swift */; };
+		08D43E9F1D4F6F040054D9EA /* Swift-C41.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 08D43E9D1D4F6F040054D9EA /* Swift-C41.xcdatamodeld */; };
+		08D43ECE1D4F755F0054D9EA /* LyRecipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ECA1D4F755F0054D9EA /* LyRecipe+CoreDataProperties.swift */; };
+		08D43ECF1D4F755F0054D9EA /* LyRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ECB1D4F755F0054D9EA /* LyRecipe.swift */; };
+		08D43ED01D4F755F0054D9EA /* LyStep+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ECC1D4F755F0054D9EA /* LyStep+CoreDataProperties.swift */; };
+		08D43ED11D4F755F0054D9EA /* LyStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08D43ECD1D4F755F0054D9EA /* LyStep.swift */; };
+		11F61DE6A471EDC4CF0FEBD6 /* Pods_Swift_C41.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFA93381288EB92117EB0E6 /* Pods_Swift_C41.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0815AD221D4AEA85007FED0F /* LyCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LyCoreDataStack.swift; path = "../../../swift-c41/Swift-C41/Util/LyCoreDataStack.swift"; sourceTree = "<group>"; };
+		08160D2B1D5183BF00CF525F /* LyDetailViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyDetailViewModel.swift; sourceTree = "<group>"; };
+		08160D2D1D519A7E00CF525F /* LyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyDetailViewController.swift; sourceTree = "<group>"; };
+		08160D2F1D51B6C200CF525F /* LyTimerViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTimerViewModel.swift; sourceTree = "<group>"; };
+		08160D321D51C8DB00CF525F /* LyTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTimerViewController.swift; sourceTree = "<group>"; };
+		08160D351D51DDCA00CF525F /* LyEditStepTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyEditStepTableViewController.swift; sourceTree = "<group>"; };
+		084A15B41D51008000EDB3C5 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		08502D651D5071EC009561BD /* Swift-C41-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-C41-Bridging-Header.h"; sourceTree = "<group>"; };
+		086D917F1D4A5FCB007012E2 /* RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAC.swift; sourceTree = "<group>"; };
+		086D91821D4A5FCB007012E2 /* TableViewBindingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewBindingHelper.swift; sourceTree = "<group>"; };
+		086D91921D4A6165007012E2 /* LyMasterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyMasterViewModel.swift; sourceTree = "<group>"; };
+		086D91951D4A6165007012E2 /* LyMasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyMasterTableViewController.swift; sourceTree = "<group>"; };
+		08772F9D1D49FD460064ACF2 /* Swift-C41.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-C41.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08772FA01D49FD470064ACF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08772FA21D49FD470064ACF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08772FA51D49FD470064ACF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08772FA71D49FD470064ACF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08772FAA1D49FD470064ACF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08772FAC1D49FD470064ACF2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08D2BA311D50767C00B85739 /* LyEditRecipeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyEditRecipeTableViewController.swift; sourceTree = "<group>"; };
+		08D2BA331D507B2700B85739 /* LyEditRecipeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyEditRecipeViewModel.swift; sourceTree = "<group>"; };
+		08D2BA351D508A4100B85739 /* LyEditStepViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyEditStepViewModel.swift; sourceTree = "<group>"; };
+		08D2BA371D5094B100B85739 /* LyTextFieldCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTextFieldCell.swift; sourceTree = "<group>"; };
+		08D43E9E1D4F6F040054D9EA /* Swift-C41.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Swift-C41.xcdatamodel"; sourceTree = "<group>"; };
+		08D43ECA1D4F755F0054D9EA /* LyRecipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LyRecipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		08D43ECB1D4F755F0054D9EA /* LyRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyRecipe.swift; sourceTree = "<group>"; };
+		08D43ECC1D4F755F0054D9EA /* LyStep+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "LyStep+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		08D43ECD1D4F755F0054D9EA /* LyStep.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyStep.swift; sourceTree = "<group>"; };
+		2DFA93381288EB92117EB0E6 /* Pods_Swift_C41.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swift_C41.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		53488D5F10C0BA86EDFEB79C /* Pods-Swift-C41.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-C41.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-C41/Pods-Swift-C41.debug.xcconfig"; sourceTree = "<group>"; };
+		535F75E0D2D0D746FF0B7BFA /* Pods-Swift-C41.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swift-C41.release.xcconfig"; path = "Pods/Target Support Files/Pods-Swift-C41/Pods-Swift-C41.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08772F9A1D49FD460064ACF2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11F61DE6A471EDC4CF0FEBD6 /* Pods_Swift_C41.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08160D281D51814300CF525F /* DetailView */ = {
+			isa = PBXGroup;
+			children = (
+				08160D2D1D519A7E00CF525F /* LyDetailViewController.swift */,
+			);
+			path = DetailView;
+			sourceTree = "<group>";
+		};
+		08160D311D51C8C300CF525F /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				08160D321D51C8DB00CF525F /* LyTimerViewController.swift */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
+		08160D341D51DD7600CF525F /* EditStepView */ = {
+			isa = PBXGroup;
+			children = (
+				08160D351D51DDCA00CF525F /* LyEditStepTableViewController.swift */,
+			);
+			path = EditStepView;
+			sourceTree = "<group>";
+		};
+		086D917E1D4A5FCB007012E2 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				084A15B41D51008000EDB3C5 /* UIKitExtensions.swift */,
+				086D917F1D4A5FCB007012E2 /* RAC.swift */,
+				086D91821D4A5FCB007012E2 /* TableViewBindingHelper.swift */,
+				0815AD221D4AEA85007FED0F /* LyCoreDataStack.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		086D91901D4A6165007012E2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				08D43ECA1D4F755F0054D9EA /* LyRecipe+CoreDataProperties.swift */,
+				08D43ECB1D4F755F0054D9EA /* LyRecipe.swift */,
+				08D43ECC1D4F755F0054D9EA /* LyStep+CoreDataProperties.swift */,
+				08D43ECD1D4F755F0054D9EA /* LyStep.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		086D91911D4A6165007012E2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				086D91921D4A6165007012E2 /* LyMasterViewModel.swift */,
+				08D2BA331D507B2700B85739 /* LyEditRecipeViewModel.swift */,
+				08D2BA351D508A4100B85739 /* LyEditStepViewModel.swift */,
+				08160D2B1D5183BF00CF525F /* LyDetailViewModel.swift */,
+				08160D2F1D51B6C200CF525F /* LyTimerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		086D91931D4A6165007012E2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				086D91941D4A6165007012E2 /* RootView */,
+				08D2BA301D50765700B85739 /* EditRecipeView  */,
+				08160D341D51DD7600CF525F /* EditStepView */,
+				08160D281D51814300CF525F /* DetailView */,
+				08160D311D51C8C300CF525F /* Timer */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		086D91941D4A6165007012E2 /* RootView */ = {
+			isa = PBXGroup;
+			children = (
+				086D91951D4A6165007012E2 /* LyMasterTableViewController.swift */,
+			);
+			path = RootView;
+			sourceTree = "<group>";
+		};
+		086D91981D4A6174007012E2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				08D43E9D1D4F6F040054D9EA /* Swift-C41.xcdatamodeld */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		08772F941D49FD460064ACF2 = {
+			isa = PBXGroup;
+			children = (
+				08772F9F1D49FD470064ACF2 /* Swift-C41 */,
+				08772F9E1D49FD460064ACF2 /* Products */,
+				BD40757B28A067841DEF33BD /* Pods */,
+				D2B6A0B25D68CD2310A17FE2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		08772F9E1D49FD460064ACF2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08772F9D1D49FD460064ACF2 /* Swift-C41.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08772F9F1D49FD470064ACF2 /* Swift-C41 */ = {
+			isa = PBXGroup;
+			children = (
+				086D91901D4A6165007012E2 /* Models */,
+				086D91911D4A6165007012E2 /* ViewModels */,
+				086D91931D4A6165007012E2 /* Views */,
+				086D917E1D4A5FCB007012E2 /* Util */,
+				086D91981D4A6174007012E2 /* Supporting Files */,
+				08772FA01D49FD470064ACF2 /* AppDelegate.swift */,
+				08772FA21D49FD470064ACF2 /* ViewController.swift */,
+				08772FA41D49FD470064ACF2 /* Main.storyboard */,
+				08772FA71D49FD470064ACF2 /* Assets.xcassets */,
+				08772FA91D49FD470064ACF2 /* LaunchScreen.storyboard */,
+				08772FAC1D49FD470064ACF2 /* Info.plist */,
+				08502D651D5071EC009561BD /* Swift-C41-Bridging-Header.h */,
+			);
+			path = "Swift-C41";
+			sourceTree = "<group>";
+		};
+		08D2BA301D50765700B85739 /* EditRecipeView  */ = {
+			isa = PBXGroup;
+			children = (
+				08D2BA311D50767C00B85739 /* LyEditRecipeTableViewController.swift */,
+				08D2BA371D5094B100B85739 /* LyTextFieldCell.swift */,
+			);
+			path = "EditRecipeView ";
+			sourceTree = "<group>";
+		};
+		BD40757B28A067841DEF33BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53488D5F10C0BA86EDFEB79C /* Pods-Swift-C41.debug.xcconfig */,
+				535F75E0D2D0D746FF0B7BFA /* Pods-Swift-C41.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D2B6A0B25D68CD2310A17FE2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DFA93381288EB92117EB0E6 /* Pods_Swift_C41.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08772F9C1D49FD460064ACF2 /* Swift-C41 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08772FAF1D49FD470064ACF2 /* Build configuration list for PBXNativeTarget "Swift-C41" */;
+			buildPhases = (
+				F42AFC7A14C464BD7C0CF041 /* [CP] Check Pods Manifest.lock */,
+				08772F991D49FD460064ACF2 /* Sources */,
+				08772F9A1D49FD460064ACF2 /* Frameworks */,
+				08772F9B1D49FD460064ACF2 /* Resources */,
+				B8B6E4AA563174FB3D390CB4 /* [CP] Embed Pods Frameworks */,
+				BE403FC376EBDA99B57D7619 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Swift-C41";
+			productName = "Swift-C41";
+			productReference = 08772F9D1D49FD460064ACF2 /* Swift-C41.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08772F951D49FD460064ACF2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = ly;
+				TargetAttributes = {
+					08772F9C1D49FD460064ACF2 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = E7H9XJ462G;
+					};
+				};
+			};
+			buildConfigurationList = 08772F981D49FD460064ACF2 /* Build configuration list for PBXProject "Swift-C41" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08772F941D49FD460064ACF2;
+			productRefGroup = 08772F9E1D49FD460064ACF2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08772F9C1D49FD460064ACF2 /* Swift-C41 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08772F9B1D49FD460064ACF2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08772FAB1D49FD470064ACF2 /* LaunchScreen.storyboard in Resources */,
+				08772FA81D49FD470064ACF2 /* Assets.xcassets in Resources */,
+				08772FA61D49FD470064ACF2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B8B6E4AA563174FB3D390CB4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-C41/Pods-Swift-C41-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BE403FC376EBDA99B57D7619 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Swift-C41/Pods-Swift-C41-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F42AFC7A14C464BD7C0CF041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08772F991D49FD460064ACF2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08D43ED01D4F755F0054D9EA /* LyStep+CoreDataProperties.swift in Sources */,
+				08D43ECE1D4F755F0054D9EA /* LyRecipe+CoreDataProperties.swift in Sources */,
+				08D43ED11D4F755F0054D9EA /* LyStep.swift in Sources */,
+				086D91831D4A5FCB007012E2 /* RAC.swift in Sources */,
+				08160D361D51DDCA00CF525F /* LyEditStepTableViewController.swift in Sources */,
+				0815AD231D4AEA85007FED0F /* LyCoreDataStack.swift in Sources */,
+				08D2BA341D507B2700B85739 /* LyEditRecipeViewModel.swift in Sources */,
+				08772FA31D49FD470064ACF2 /* ViewController.swift in Sources */,
+				08160D2C1D5183BF00CF525F /* LyDetailViewModel.swift in Sources */,
+				08160D2E1D519A7E00CF525F /* LyDetailViewController.swift in Sources */,
+				086D91961D4A6165007012E2 /* LyMasterViewModel.swift in Sources */,
+				08D43E9F1D4F6F040054D9EA /* Swift-C41.xcdatamodeld in Sources */,
+				084A15B51D51008000EDB3C5 /* UIKitExtensions.swift in Sources */,
+				08D2BA321D50767C00B85739 /* LyEditRecipeTableViewController.swift in Sources */,
+				08772FA11D49FD470064ACF2 /* AppDelegate.swift in Sources */,
+				086D91971D4A6165007012E2 /* LyMasterTableViewController.swift in Sources */,
+				08D2BA381D5094B100B85739 /* LyTextFieldCell.swift in Sources */,
+				086D91861D4A5FCB007012E2 /* TableViewBindingHelper.swift in Sources */,
+				08D43ECF1D4F755F0054D9EA /* LyRecipe.swift in Sources */,
+				08D2BA361D508A4100B85739 /* LyEditStepViewModel.swift in Sources */,
+				08160D331D51C8DB00CF525F /* LyTimerViewController.swift in Sources */,
+				08160D301D51B6C200CF525F /* LyTimerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		08772FA41D49FD470064ACF2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08772FA51D49FD470064ACF2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08772FA91D49FD470064ACF2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08772FAA1D49FD470064ACF2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08772FAD1D49FD470064ACF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08772FAE1D49FD470064ACF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08772FB01D49FD470064ACF2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53488D5F10C0BA86EDFEB79C /* Pods-Swift-C41.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Swift-C41/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactiveCocoa/external/specta/test/vendor/expecta",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ly.Swift-C41";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-C41/Swift-C41-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08772FB11D49FD470064ACF2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 535F75E0D2D0D746FF0B7BFA /* Pods-Swift-C41.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Swift-C41/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ReactiveCocoa/external/specta/test/vendor/expecta",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ly.Swift-C41";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Swift-C41/Swift-C41-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08772F981D49FD460064ACF2 /* Build configuration list for PBXProject "Swift-C41" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08772FAD1D49FD470064ACF2 /* Debug */,
+				08772FAE1D49FD470064ACF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08772FAF1D49FD470064ACF2 /* Build configuration list for PBXNativeTarget "Swift-C41" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08772FB01D49FD470064ACF2 /* Debug */,
+				08772FB11D49FD470064ACF2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		08D43E9D1D4F6F040054D9EA /* Swift-C41.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				08D43E9E1D4F6F040054D9EA /* Swift-C41.xcdatamodel */,
+			);
+			currentVersion = 08D43E9E1D4F6F040054D9EA /* Swift-C41.xcdatamodel */;
+			path = "Swift-C41.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 08772F951D49FD460064ACF2 /* Project object */;
+}
