@@ -19,7 +19,6 @@
 		086D91961D4A6165007012E2 /* LyMasterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D91921D4A6165007012E2 /* LyMasterViewModel.swift */; };
 		086D91971D4A6165007012E2 /* LyMasterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086D91951D4A6165007012E2 /* LyMasterTableViewController.swift */; };
 		08772FA11D49FD470064ACF2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08772FA01D49FD470064ACF2 /* AppDelegate.swift */; };
-		08772FA31D49FD470064ACF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08772FA21D49FD470064ACF2 /* ViewController.swift */; };
 		08772FA61D49FD470064ACF2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08772FA41D49FD470064ACF2 /* Main.storyboard */; };
 		08772FA81D49FD470064ACF2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08772FA71D49FD470064ACF2 /* Assets.xcassets */; };
 		08772FAB1D49FD470064ACF2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08772FA91D49FD470064ACF2 /* LaunchScreen.storyboard */; };
@@ -43,14 +42,12 @@
 		08160D321D51C8DB00CF525F /* LyTimerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyTimerViewController.swift; sourceTree = "<group>"; };
 		08160D351D51DDCA00CF525F /* LyEditStepTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyEditStepTableViewController.swift; sourceTree = "<group>"; };
 		084A15B41D51008000EDB3C5 /* UIKitExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
-		08502D651D5071EC009561BD /* Swift-C41-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Swift-C41-Bridging-Header.h"; sourceTree = "<group>"; };
 		086D917F1D4A5FCB007012E2 /* RAC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RAC.swift; sourceTree = "<group>"; };
 		086D91821D4A5FCB007012E2 /* TableViewBindingHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewBindingHelper.swift; sourceTree = "<group>"; };
 		086D91921D4A6165007012E2 /* LyMasterViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyMasterViewModel.swift; sourceTree = "<group>"; };
 		086D91951D4A6165007012E2 /* LyMasterTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LyMasterTableViewController.swift; sourceTree = "<group>"; };
 		08772F9D1D49FD460064ACF2 /* Swift-C41.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Swift-C41.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08772FA01D49FD470064ACF2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		08772FA21D49FD470064ACF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		08772FA51D49FD470064ACF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08772FA71D49FD470064ACF2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08772FAA1D49FD470064ACF2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -194,12 +191,10 @@
 				086D917E1D4A5FCB007012E2 /* Util */,
 				086D91981D4A6174007012E2 /* Supporting Files */,
 				08772FA01D49FD470064ACF2 /* AppDelegate.swift */,
-				08772FA21D49FD470064ACF2 /* ViewController.swift */,
 				08772FA41D49FD470064ACF2 /* Main.storyboard */,
 				08772FA71D49FD470064ACF2 /* Assets.xcassets */,
 				08772FA91D49FD470064ACF2 /* LaunchScreen.storyboard */,
 				08772FAC1D49FD470064ACF2 /* Info.plist */,
-				08502D651D5071EC009561BD /* Swift-C41-Bridging-Header.h */,
 			);
 			path = "Swift-C41";
 			sourceTree = "<group>";
@@ -360,7 +355,6 @@
 				08160D361D51DDCA00CF525F /* LyEditStepTableViewController.swift in Sources */,
 				0815AD231D4AEA85007FED0F /* LyCoreDataStack.swift in Sources */,
 				08D2BA341D507B2700B85739 /* LyEditRecipeViewModel.swift in Sources */,
-				08772FA31D49FD470064ACF2 /* ViewController.swift in Sources */,
 				08160D2C1D5183BF00CF525F /* LyDetailViewModel.swift in Sources */,
 				08160D2E1D519A7E00CF525F /* LyDetailViewController.swift in Sources */,
 				086D91961D4A6165007012E2 /* LyMasterViewModel.swift in Sources */,

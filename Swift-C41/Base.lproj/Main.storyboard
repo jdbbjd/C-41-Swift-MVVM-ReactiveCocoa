@@ -223,14 +223,16 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Title" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Vbc-wm-wG1">
-                                            <rect key="frame" x="16" y="13" width="568" height="17"/>
+                                            <rect key="frame" x="16" y="0.0" width="568" height="43"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
                                     </subviews>
                                     <constraints>
                                         <constraint firstItem="Vbc-wm-wG1" firstAttribute="centerY" secondItem="nma-Fr-eDW" secondAttribute="centerY" id="188-m3-Cy6"/>
+                                        <constraint firstAttribute="bottom" secondItem="Vbc-wm-wG1" secondAttribute="bottom" id="AK3-lV-XKt"/>
                                         <constraint firstItem="Vbc-wm-wG1" firstAttribute="trailing" secondItem="nma-Fr-eDW" secondAttribute="trailingMargin" constant="-8" id="deD-U2-Yge"/>
+                                        <constraint firstItem="Vbc-wm-wG1" firstAttribute="top" secondItem="nma-Fr-eDW" secondAttribute="top" id="siY-3G-lVF"/>
                                         <constraint firstItem="Vbc-wm-wG1" firstAttribute="leading" secondItem="nma-Fr-eDW" secondAttribute="leadingMargin" constant="8" id="tKt-8i-pfJ"/>
                                     </constraints>
                                 </tableViewCellContentView>
@@ -246,7 +248,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5sl-So-oxC">
-                                            <rect key="frame" x="15" y="13" width="570" height="17"/>
+                                            <rect key="frame" x="15" y="0.0" width="570" height="43"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                             <textInputTraits key="textInputTraits"/>
                                         </textField>
@@ -254,7 +256,9 @@
                                     <constraints>
                                         <constraint firstItem="5sl-So-oxC" firstAttribute="centerY" secondItem="S4T-Q4-ZuW" secondAttribute="centerY" id="XYy-yx-XNg"/>
                                         <constraint firstItem="5sl-So-oxC" firstAttribute="leading" secondItem="S4T-Q4-ZuW" secondAttribute="leading" constant="15" id="bor-g4-WzR"/>
+                                        <constraint firstAttribute="bottom" secondItem="5sl-So-oxC" secondAttribute="bottom" id="e9A-ll-wya"/>
                                         <constraint firstAttribute="trailing" secondItem="5sl-So-oxC" secondAttribute="trailing" constant="15" id="fhQ-5T-0GG"/>
+                                        <constraint firstItem="5sl-So-oxC" firstAttribute="top" secondItem="S4T-Q4-ZuW" secondAttribute="top" id="oqR-2Q-fB0"/>
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
@@ -360,7 +364,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Step Name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="5zx-59-4LO">
-                                                    <rect key="frame" x="16" y="13" width="568" height="17"/>
+                                                    <rect key="frame" x="16" y="0.0" width="568" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
@@ -368,6 +372,8 @@
                                             <constraints>
                                                 <constraint firstItem="5zx-59-4LO" firstAttribute="centerY" secondItem="UGs-7m-Eyn" secondAttribute="centerY" id="NTq-EZ-bQt"/>
                                                 <constraint firstItem="5zx-59-4LO" firstAttribute="leading" secondItem="UGs-7m-Eyn" secondAttribute="leadingMargin" constant="8" id="T4C-PH-udu"/>
+                                                <constraint firstItem="5zx-59-4LO" firstAttribute="top" secondItem="UGs-7m-Eyn" secondAttribute="top" id="X9F-Mu-KAc"/>
+                                                <constraint firstAttribute="bottom" secondItem="5zx-59-4LO" secondAttribute="bottom" id="dfa-pp-Yc2"/>
                                                 <constraint firstItem="5zx-59-4LO" firstAttribute="trailing" secondItem="UGs-7m-Eyn" secondAttribute="trailingMargin" constant="-8" id="ejh-2b-Gbg"/>
                                             </constraints>
                                         </tableViewCellContentView>
@@ -380,15 +386,17 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Step Description" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8VQ-l8-qic">
-                                                    <rect key="frame" x="16" y="13" width="568" height="17"/>
+                                                    <rect key="frame" x="16" y="0.0" width="568" height="43"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                     <textInputTraits key="textInputTraits"/>
                                                 </textField>
                                             </subviews>
                                             <constraints>
                                                 <constraint firstItem="8VQ-l8-qic" firstAttribute="leading" secondItem="JFc-dn-NTm" secondAttribute="leadingMargin" constant="8" id="9pe-3H-Dxm"/>
+                                                <constraint firstAttribute="bottom" secondItem="8VQ-l8-qic" secondAttribute="bottom" id="FHW-jT-CFy"/>
                                                 <constraint firstItem="8VQ-l8-qic" firstAttribute="trailing" secondItem="JFc-dn-NTm" secondAttribute="trailingMargin" constant="-8" id="MCj-Yf-YkH"/>
                                                 <constraint firstItem="8VQ-l8-qic" firstAttribute="centerY" secondItem="JFc-dn-NTm" secondAttribute="centerY" id="nzN-BH-MHX"/>
+                                                <constraint firstItem="8VQ-l8-qic" firstAttribute="top" secondItem="JFc-dn-NTm" secondAttribute="top" id="vlc-XT-teQ"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                     </tableViewCell>
@@ -399,7 +407,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" stepValue="6" translatesAutoresizingMaskIntoConstraints="NO" id="RCr-Wi-UEl">
+                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="RCr-Wi-UEl">
                                                     <rect key="frame" x="491" y="7" width="94" height="29"/>
                                                 </stepper>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Temperature" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MbU-lo-12e">
@@ -425,7 +433,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="YYN-fx-yfl">
+                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="1000" stepValue="10" translatesAutoresizingMaskIntoConstraints="NO" id="YYN-fx-yfl">
                                                     <rect key="frame" x="491" y="7" width="94" height="29"/>
                                                 </stepper>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Duration" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLz-hB-J0k">
@@ -451,7 +459,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="PVc-QN-fjL">
+                                                <stepper opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" maximumValue="1000" stepValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="PVc-QN-fjL">
                                                     <rect key="frame" x="491" y="7" width="94" height="29"/>
                                                 </stepper>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Agitation Frequency" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vwj-0J-3XO">

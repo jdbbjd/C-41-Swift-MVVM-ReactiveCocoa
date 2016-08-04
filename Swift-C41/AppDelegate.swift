@@ -8,6 +8,7 @@
 
 import UIKit
 import UIColor_Utilities
+import IQKeyboardManager
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -19,6 +20,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         self.window?.tintColor = UIColor(hexString: "9E4B10")
         LyCoreDataStack.defaultStack.ensureInitialLoad()
+        
+        let manager = IQKeyboardManager.sharedManager()
+        manager.enable = true
+        manager.shouldResignOnTouchOutside = true
+        manager.shouldToolbarUsesTextFieldTintColor = true
+        //控制键盘上面的Done是否显示
+        manager.enableAutoToolbar = false
         
         return true
     }

@@ -1,18 +1,21 @@
 PODS:
+  - IQKeyboardManager (3.3.7)
   - ReactiveCocoa (4.2.1):
     - Result (~> 2.0)
   - Result (2.1.2)
   - UIColor-Utilities (1.0.1)
 
 DEPENDENCIES:
+  - IQKeyboardManager (~> 3.3.2)
   - ReactiveCocoa (~> 4.2.1)
   - UIColor-Utilities (= 1.0.1)
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 249c3946acf61345c18b038eb50863fe2793e3a8
   ReactiveCocoa: 5a42745f11ea236f405bb9ce5e97c5e3b23562dd
   Result: 6e722d4a66b1408680dbfcdf51c0b1c4b706316a
   UIColor-Utilities: 6746a54dcdb3bc012dd7aeaeea5588ae2100beb2
 
-PODFILE CHECKSUM: 4ccb2357da942b818990c6f07a2e9355f73f356a
+PODFILE CHECKSUM: c9c87b01240306096e660de0da4ebc7a6c835617
 
 COCOAPODS: 1.0.1

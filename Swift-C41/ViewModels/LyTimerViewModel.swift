@@ -52,7 +52,7 @@ class LyTimerViewModel: NSObject {
         })
         
         timeRemainingString <~ currentStepTimeRemaining.producer.map({ (time) -> String in
-            let IntTime = Int(time)
+            let IntTime = Int(time) < 0 ? 0:Int(time)
             let minutes = IntTime / 60
             let seconds = IntTime % 60
             return String(format: "%d:%02d", minutes,seconds)
