@@ -49,33 +49,31 @@ class LyEditStepTableViewController: UITableViewController {
         viewModel.stepName <~ stepNameTextField.rac_text
         viewModel.stepDescription <~ stepDescriptionTextField.rac_text
   
-        viewModel.temperatureCelcius <~ temperatureStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().mapError { (error) -> NoError in
-            return error as! NoError
-            }.map { (stepper) -> Int64 in
-                let step = stepper as! UIStepper
-                return Int64(step.value)
-        }
+        temperatureStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().startWithNext({
+            [unowned self] in
+            let step = $0 as! UIStepper
+            self.viewModel.temperatureCelcius <~ ConstantProperty(Int64(step.value))
+        })
         
-        viewModel.duration <~ durationStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().mapError { (error) -> NoError in
-            return error as! NoError
-            }.map { (stepper) -> Int64 in
-                let step = stepper as! UIStepper
-                return Int64(step.value)
-        }
+        durationStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().startWithNext({
+            [unowned self] in
+            let step = $0 as! UIStepper
+            self.viewModel.duration <~ ConstantProperty(Int64(step.value))
+        })
         
-        viewModel.agitationDuration <~ agitationDurationStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().mapError { (error) -> NoError in
-            return error as! NoError
-            }.map { (stepper) -> Int64 in
-                let step = stepper as! UIStepper
-                return Int64(step.value)
-        }
+        agitationDurationStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().startWithNext({
+            [unowned self] in
+            let step = $0 as! UIStepper
+            self.viewModel.agitationDuration <~ ConstantProperty(Int64(step.value))
+        })
         
-        viewModel.agitationFrequency <~ agitationFrequencyStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().mapError { (error) -> NoError in
-            return error as! NoError
-        }.map { (stepper) -> Int64 in
-            let step = stepper as! UIStepper
-            return Int64(step.value)
-        }
+        agitationFrequencyStepper.rac_signalForControlEvents(.TouchUpInside).toSignalProducer().startWithNext({
+            [unowned self] in
+            let step = $0 as! UIStepper
+            self.viewModel.agitationFrequency <~ ConstantProperty(Int64(step.value))
+        })
+        
+      
     }
 
 }
